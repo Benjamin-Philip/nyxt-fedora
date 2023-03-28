@@ -1,0 +1,21 @@
+#+title: Nyxt RPM specs
+#+author: Benjamin Philip <benjamin.philip495@gmail.com>
+* About
+
+This repository contains the RPM specs for [[https://nyxt.atlas.engineer][Nyxt]], an extensible browser with
+support for Emacs, Vim and CUA bindings. Currently it builds on Copr, but it may
+be added to Fedora's official rpm repository.
+
+* Install
+
+To use this spec, and thus install Nyxt, you must first enable the copr:
+
+#+begin_src bash
+sudo dnf copr enable bphilip/nyxt
+#+end_src
+
+and then install the copr:
+
+#+begin_src bash
+sudo dnf install nyxt
+#+end_src
